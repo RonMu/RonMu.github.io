@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数据结构复习笔记-1 | 布吉岛区伸末明子</title><meta name="keywords" content="笔记"><meta name="author" content="淮河水退"><meta name="copyright" content="淮河水退"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="本篇是绪论篇，主要是一些基础概念。  1.基本概念 数据结构：相互之间存在一种或多种特定关系的数据元素的集合。 数据：信息的一种符号表示。 数据元素：数据的基本单位，作为整体处理，也被称为记录。一个数据元素可由若干数据项组成。 数据项：组成数据元素的具有独立含义的最小单位。  1.1三要素1.1.1逻辑结构 数据元素间的逻辑关系。  1.1.2存储结构 数据元素及其关系在计算机存储内的表示。">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数据结构复习笔记-1 | 布吉岛区伸末明子</title><meta name="keywords" content="笔记"><meta name="author" content="淮河水退"><meta name="copyright" content="淮河水退"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="本篇是绪论篇，主要是一些基础概念。  1.基本概念 数据结构：相互之间存在一种或多种特定关系的数据元素的集合。 数据：信息的一种符号表示。 数据元素：数据的基本单位，作为整体处理，也被称为记录。一个数据元素可由若干数据项组成。 数据项：组成数据元素的具有独立含义的最小单位。  1.1三要素1.1.1逻辑结构 数据元素间的逻辑关系。   Data\quad structure&#x3D;(D,R)\\ D:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据结构复习笔记-1">
 <meta property="og:url" content="https://blog.baopuzi.top/2021/01/04/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0-1/index.html">
 <meta property="og:site_name" content="布吉岛区伸末明子">
-<meta property="og:description" content="本篇是绪论篇，主要是一些基础概念。  1.基本概念 数据结构：相互之间存在一种或多种特定关系的数据元素的集合。 数据：信息的一种符号表示。 数据元素：数据的基本单位，作为整体处理，也被称为记录。一个数据元素可由若干数据项组成。 数据项：组成数据元素的具有独立含义的最小单位。  1.1三要素1.1.1逻辑结构 数据元素间的逻辑关系。  1.1.2存储结构 数据元素及其关系在计算机存储内的表示。">
+<meta property="og:description" content="本篇是绪论篇，主要是一些基础概念。  1.基本概念 数据结构：相互之间存在一种或多种特定关系的数据元素的集合。 数据：信息的一种符号表示。 数据元素：数据的基本单位，作为整体处理，也被称为记录。一个数据元素可由若干数据项组成。 数据项：组成数据元素的具有独立含义的最小单位。  1.1三要素1.1.1逻辑结构 数据元素间的逻辑关系。   Data\quad structure&#x3D;(D,R)\\ D:">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
 <meta property="article:published_time" content="2021-01-04T14:23:02.000Z">
-<meta property="article:modified_time" content="2021-01-04T15:39:51.136Z">
+<meta property="article:modified_time" content="2021-01-04T15:52:23.761Z">
 <meta property="article:author" content="淮河水退">
 <meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary">
@@ -100,7 +100,7 @@ const getScript = url => new Promise((resolve, reject) => {
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2021-01-04 23:39:51'
+  postUpdate: '2021-01-04 23:52:23'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -165,7 +165,7 @@ if (asideStatus !== undefined) {
    } else {
      document.documentElement.classList.remove('hide-aside')
    }
-}})()</script><meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a></div></div></div><hr/></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">布吉岛区伸末明子</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">数据结构复习笔记-1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-01-04T14:23:02.000Z" title="发表于 2021-01-04 22:23:02">2021-01-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-04T15:39:51.136Z" title="更新于 2021-01-04 23:39:51">2021-01-04</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
+}})()</script><meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a></div></div></div><hr/></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">布吉岛区伸末明子</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">数据结构复习笔记-1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-01-04T14:23:02.000Z" title="发表于 2021-01-04 22:23:02">2021-01-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-04T15:52:23.761Z" title="更新于 2021-01-04 23:52:23">2021-01-04</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
 <p>本篇是绪论篇，主要是一些基础概念。</p>
 </blockquote>
 <h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1.基本概念"></a>1.基本概念</h2><ul>
@@ -177,6 +177,10 @@ if (asideStatus !== undefined) {
 <h3 id="1-1三要素"><a href="#1-1三要素" class="headerlink" title="1.1三要素"></a>1.1三要素</h3><h4 id="1-1-1逻辑结构"><a href="#1-1-1逻辑结构" class="headerlink" title="1.1.1逻辑结构"></a>1.1.1逻辑结构</h4><blockquote>
 <p>数据元素间的逻辑关系。</p>
 </blockquote>
+<script type="math/tex; mode=display">
+Data\quad structure=(D,R)\\
+D:数据元素的有限集合\\
+R:D上关系的有限集合</script><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A(四种逻辑结构) --&gt; 集合结构</span><br><span class="line">A --&gt; 线性结构</span><br><span class="line">A --&gt; 树形结构</span><br><span class="line">A --&gt; 图形结构</span><br></pre></td></tr></table></figure>
 <h4 id="1-1-2存储结构"><a href="#1-1-2存储结构" class="headerlink" title="1.1.2存储结构"></a>1.1.2存储结构</h4><blockquote>
 <p>数据元素及其关系在计算机存储内的表示。</p>
 </blockquote>
